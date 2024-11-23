@@ -3,23 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_usuarios">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.cashflow.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_usuarios"
+        android:name="com.example.cashflow.ui.usuarios.UsuariosFragment"
+        android:label="@string/title_usuarios"
+        tools:layout="@layout/fragment_usuarios" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.cashflow.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_movimientos"
+        android:name="com.example.cashflow.ui.movimientos.MovimientosFragment"
+        android:label="@string/title_movimientos"
+        tools:layout="@layout/fragment_movimientos" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.cashflow.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_reportes"
+        android:name="com.example.cashflow.ui.reportes.ReportesFragment"
+        android:label="@string/title_reportes"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/navigation_registrar_movimientos"
+        android:name="com.example.cashflow.ui.registrarmovimientos.RegistrarMovimientosFragment"
+        android:label="@string/title_registrar_movimientos"
+        tools:layout="@layout/fragment_registrar_movimientos" />
+
+
+
 </navigation>

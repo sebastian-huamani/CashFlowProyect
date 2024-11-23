@@ -3,4 +3,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_movimientos">Movimientos</string>
+    <string name="title_usuarios">Usuarios</string>
+    <string name="title_reportes">Reportes</string>
+    <string name="title_registrar_movimientos">Registrar Movimientos</string>
+
 </resources>
