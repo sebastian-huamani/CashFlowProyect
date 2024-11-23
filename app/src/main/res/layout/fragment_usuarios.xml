@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp">
+        android:padding="20dp">
 
         <ImageView
             android:id="@+id/logoImageView"
@@ -117,7 +117,6 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintTop_toBottomOf="@+id/accountsLabel"
                 tools:listitem="@layout/lista_cuenta_card" />
-
 
         </ScrollView>
 
