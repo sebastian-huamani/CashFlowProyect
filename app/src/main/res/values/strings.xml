@@ -18,4 +18,12 @@
     <string name="vermovimientos_mayuscula">VER MOVIMIENTOS</string>
     <string name="cuentas_mayuscula">CUENTAS:</string>
 
+    <string name="hint_observaciones">Observaciones</string>
+    <string name="hint_monto">Monto</string>
+    <string name="hint_fecha">Seleccione la fecha</string>
+
+    <string name="naturaleza">NATURALEZA:</string>
+    <string name="departamento">DEPARTAMENTO:</string>
+    <string name="caregoria">CATEGORIA:</string>
+    <string name="concepto">CONCEPTO:</string>
 </resources>
